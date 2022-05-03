@@ -1,0 +1,15 @@
+.maincontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    margin-top: 30%;
+}
+#firstcolumn{
+    grid-row: 1/3;
+    background: transparent;
+}
+.secondcolumn{
+    background-color: aqua;
+}
