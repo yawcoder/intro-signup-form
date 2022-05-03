@@ -1,3 +1,6 @@
+body{
+    background: url(moroccan-flower-dark.png);
+}
 .maincontent{
     display: grid;
     grid-template-columns: 1fr 1fr;
