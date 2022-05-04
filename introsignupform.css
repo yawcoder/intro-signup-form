@@ -11,27 +11,30 @@ body{
     width: 70%;
     margin: auto;
     margin-top: 5%;
-    border: solid yellow 10px;
     align-items: center;
 }
 #firstcolumn{
+    
     grid-row: 1/3;
     background: transparent;
     color: white;
     padding: 0 10px 0 0;
 }
-/*.secondcolumn{
-   background-color: aqua;
-} */
 #secondcolumnfirstrow{
+    padding-top: 25px;
     border-radius: 10px;
     background-color: purple;
     width: 100%;
+    height: 45px;
     color: white;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.9);
 }
 .secondrow{
+    padding-top: 20px;
     background-color: white;
     border-radius: 10px;
+    height: 380px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.9);
 }
 .learntocodesize{
     font-size: 40px;
@@ -41,6 +44,21 @@ body{
 }
 .inputfield{
     width: 80%;
+    border: solid 1px black; 
     border-radius: 5px;
-    height:50px;
+    height: 40px;
+}
+.claimbutton{
+    padding-top: 12px;
+    width: 80%;
+    background-color: green;
+    height: 28px;
+    border: solid 1px green;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+    font-size: 13px;
+}
+.terms{
+    font-size: 13px;
 }
