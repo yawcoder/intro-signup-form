@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
 body{
-    background-color: crimson;
+    background: url(congruent_outline.png);
     font-family: 'Radio Canada', sans-serif;
 }
 .maincontent{
@@ -14,7 +14,7 @@ body{
     align-items: center;
 }
 #firstcolumn{
-    
+
     grid-row: 1/3;
     background: transparent;
     color: white;
@@ -58,6 +58,10 @@ body{
     margin: auto;
     color: white;
     font-size: 13px;
+}
+.claimbutton:hover{
+    background-color: darkgreen;
+    cursor: pointer;
 }
 .terms{
     font-size: 13px;
