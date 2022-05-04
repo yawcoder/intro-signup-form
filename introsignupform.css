@@ -1,18 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
 body{
-    background: url(moroccan-flower-dark.png);
+    background-color: crimson;
+    font-family: 'Radio Canada', sans-serif;
 }
 .maincontent{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-row-gap: 10px;
     width: 70%;
     margin: auto;
-    margin-top: 30%;
+    margin-top: 10%;
+    border: solid yellow 10px;
 }
 #firstcolumn{
     grid-row: 1/3;
     background: transparent;
+    color: white;
+    padding: 0 10px 0 0;
 }
 .secondcolumn{
     background-color: aqua;
+}
+#secondcolumnfirstrow{
+    border-radius: 10px;
+}
+.secondrow{
+    background-color: aqua;
+}
+.learntocodesize{
+    font-size: 40px;
+}
+.firstcolumnlinespace{
+    line-height: 45px;
 }
